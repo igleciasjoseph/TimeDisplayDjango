@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: wheat;
+}
+
+#wrapper {
+    margin: 0px auto;
+    width: 500px;
+    text-align: center;
+}
+
+#header {
+    margin: 20px auto;
+    vertical-align: top;
+    border: 3px solid black;
+    width: 185px;
+    padding: 5px 10px 15px 5px;
+}
+
+#times {
+    margin: 20px auto;
+    vertical-align: top;
+    border: 3px solid black;
+    padding: 5px 10px 15px 5px;
+
+}

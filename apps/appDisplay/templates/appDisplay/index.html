@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Time Display</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'appDisplay/css/style.css' %}">
+</head>
+<body>
+    <div id='wrapper'>
+        <div id='header'>
+            <p>The Current time and date:</p>
+        </div>
+        <div id='times'>
+            <h1>{{ date }}</h1>
+            <h1>{{ time }}</h1>
+        </div>
+    </div>
+</body>
+</html>
